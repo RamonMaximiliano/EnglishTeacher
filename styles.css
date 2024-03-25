@@ -1,0 +1,33 @@
+* body{
+background-color: #001138;
+color:white;
+}
+
+.main-page{
+    max-width:60%;
+    margin: auto;
+}
+
+.firstpic{
+    max-width:250px;
+}
+
+.introduction-section{
+    display:flex;
+    margin-top:100px;
+    align-items: center;
+} 
+
+.inglês-text{
+    color:red;
+}
+
+.image{
+    width:250px;
+}
+
+
+.footer-section{
+    display:flex;
+    align-items: center;
+}
