@@ -31,3 +31,15 @@ color:white;
     display:flex;
     align-items: center;
 }
+
+
+.main-cards{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin:auto;
+}
+
+.card{
+    width:280px;
+}
