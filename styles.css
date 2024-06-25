@@ -1,77 +1,142 @@
-* body{
-background-color: #001138;
-color:white;
-margin: 0;
-padding:0;
-box-sizing: border-box;
-
+* body {
+  background-color: #001138;
+  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.introduction-section{
-    margin: auto;
-    max-width:60%;
-    display:flex;
-    align-items: center;
-    justify-content: space-between;
-} 
+/* Intro START =================== */
 
-.introduction-section-back{
-    padding-top:50px;
-    padding-bottom:40px;
-
-background: linear-gradient(135deg, #000f33, #001b65, #002a9e);
-
+.introduction-section {
+  margin: auto;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.inglês-text{
-    color:red;
+.introduction-section-back {
+  padding-top: 50px;
+  padding-bottom: 40px;
+
+  background: linear-gradient(135deg, #000d2b, #00185c, #001f75);
 }
 
-.image1{
-    width:500px;
-    border-radius: 2%;
+.inglês-text {
+  color: rgb(202, 0, 0);
 }
 
-.parag-description{
-    width:500px;
-}
-.parag-description h1{
-    font-size:45px;
-}
-.parag-description p{
-    font-size:18px;
-}
-.cta-button{
-    width: 500px;
-    background-color: red;
-    padding:10px;
-    text-decoration: none;
-    color:white;
-    border-radius: 6px;
-    transition: all 0.3s;
-    font-weight: bold;
-}
-.cta-button:hover{
-    background-color: rgb(250, 64, 64);
-}
-.cta-button-anchor{
-    text-decoration: none;
-    text-align: center;
+.image1 {
+  width: 500px;
+  border-radius: 2%;
 }
 
-.footer-section{
-    display:flex;
-    align-items: center;
+.parag-description {
+  width: 500px;
 }
 
-
-.main-cards{
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin:auto;
+.parag-description h1 {
+  font-size: 45px;
 }
 
-.card{
-    width:280px;
+.parag-description p {
+  font-size: 18px;
 }
+
+.cta-button {
+  width: 500px;
+  background-color: rgb(202, 0, 0);
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 6px;
+  transition: all 0.3s;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: rgb(148, 0, 0);
+}
+
+.cta-button-anchor {
+  text-decoration: none;
+  text-align: center;
+}
+/* Intro END =================== */
+
+/* Personal START =================== */
+
+.personal-section {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 60%;
+}
+
+/* Personal END =================== */
+
+/* Cards START =================== */
+.main-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  max-width: 60%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 150px;
+  margin-top: 50px;
+}
+
+.card {
+  width: 280px;
+  height: 550px;
+  align-items: center;
+  text-align: center;
+  background: linear-gradient(rgb(0, 0, 41), #10144e);
+  border-radius: 10px;
+}
+
+.card p {
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.card h1 {
+  font-size: 28px;
+  color: rgb(82, 142, 255);
+  text-align: left;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+.card img {
+  height: 40%;
+  max-width: 100%;
+  width: fit-content;
+}
+
+.borderimg {
+  border-radius: 10px 10px 0px 0px;
+}
+
+/* Intro END =================== */
+
+/* Footer START =================== */
+
+.footer-section {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  max-width: 60%;
+}
+
+.footer-section img {
+  width: 250px;
+}
+
+/* Footer END =================== */
