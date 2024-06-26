@@ -69,9 +69,29 @@
 
 .personal-section {
   display: flex;
-  align-items: center;
   margin: auto;
-  max-width: 60%;
+  max-width: 55%;
+  padding-top: 50px;
+  padding-bottom: 40px;
+  justify-content: space-between;
+}
+.personal-section h1 {
+  color: rgb(82, 142, 255);
+  margin-left: 20px;
+}
+
+.benefits-image {
+  width: 400px;
+  border-radius: 2%;
+}
+
+.personal-list {
+  line-height: 30px;
+  font-size: 18px;
+}
+
+.benefits-list {
+  margin-top: -25px;
 }
 
 /* Personal END =================== */
@@ -85,7 +105,7 @@
   max-width: 60%;
   display: flex;
   align-items: center;
-  margin-bottom: 150px;
+  margin-bottom: 50px;
   margin-top: 50px;
 }
 
@@ -94,7 +114,7 @@
   height: 550px;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgb(0, 0, 41), #10144e);
+  background: linear-gradient(rgb(0, 0, 41), #171d74);
   border-radius: 10px;
 }
 
@@ -122,6 +142,12 @@
 
 .borderimg {
   border-radius: 10px 10px 0px 0px;
+}
+
+.cards-section {
+  background: linear-gradient(#000766, rgb(0, 0, 56));
+  padding-bottom: 5px;
+  padding-top: 5px;
 }
 
 /* Intro END =================== */
