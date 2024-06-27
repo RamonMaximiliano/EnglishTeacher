@@ -114,7 +114,7 @@
   height: 550px;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgb(0, 0, 41), #171d74);
+  background: linear-gradient(rgb(0, 0, 31), #040a66);
   border-radius: 10px;
 }
 
@@ -145,7 +145,7 @@
 }
 
 .cards-section {
-  background: linear-gradient(#000766, rgb(0, 0, 56));
+  background: linear-gradient(#000552, #000027);
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -156,13 +156,34 @@
 
 .footer-section {
   display: flex;
-  align-items: center;
   margin: auto;
   max-width: 60%;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  justify-content: space-between;
 }
 
 .footer-section img {
   width: 250px;
+  border-radius: 10px;
+}
+
+.bottom-footer {
+  background-color: #000027;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  height: 100px;
+  justify-content: center;
+}
+
+.profile-description {
+  line-height: 30px;
+  font-size: 18px;
+  margin-left: 50px;
+}
+.profile-description h1 {
+  color: rgb(82, 142, 255);
 }
 
 /* Footer END =================== */
