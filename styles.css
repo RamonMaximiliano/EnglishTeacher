@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Intro START =================== */
@@ -37,11 +38,12 @@
 }
 
 .parag-description h1 {
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .parag-description p {
-  font-size: 18px;
+  font-size: 16px;
+  line-height: 25px;
 }
 
 .cta-button {
@@ -56,7 +58,7 @@
 }
 
 .cta-button:hover {
-  background-color: rgb(148, 0, 0);
+  background-color: rgb(129, 0, 0);
 }
 
 .cta-button-anchor {
@@ -87,7 +89,7 @@
 
 .personal-list {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 17px;
 }
 
 .benefits-list {
@@ -110,11 +112,11 @@
 }
 
 .card {
-  width: 280px;
+  width: 300px;
   height: 550px;
   align-items: center;
   text-align: center;
-  background: linear-gradient(rgb(0, 0, 31), #040a66);
+  background: linear-gradient(rgb(0, 0, 31), #070d4b);
   border-radius: 10px;
 }
 
@@ -122,6 +124,8 @@
   text-align: left;
   padding-left: 12px;
   padding-right: 12px;
+  font-size: 16px;
+  line-height: 22px;
 }
 
 .card h1 {
@@ -145,7 +149,7 @@
 }
 
 .cards-section {
-  background: linear-gradient(#000552, #000027);
+  background: linear-gradient(#060d61, #000027);
   padding-bottom: 5px;
   padding-top: 5px;
 }
@@ -179,7 +183,7 @@
 
 .profile-description {
   line-height: 30px;
-  font-size: 18px;
+  font-size: 16px;
   margin-left: 50px;
 }
 .profile-description h1 {
