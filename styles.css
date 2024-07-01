@@ -11,8 +11,9 @@
 
 .introduction-section {
   margin: auto;
-  max-width: 60%;
+  max-width: 1100px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
@@ -20,7 +21,6 @@
 .introduction-section-back {
   padding-top: 50px;
   padding-bottom: 40px;
-
   background: linear-gradient(135deg, #10122e, #191a41, #0e2c68); 
 }
 
@@ -29,12 +29,14 @@
 }
 
 .image1 {
-  width: 500px;
+  max-width: 500px;
   border-radius: 2%;
 }
 
+
 .parag-description {
   width: 500px;
+  padding:10px;
 }
 
 .parag-description h1 {
@@ -47,7 +49,7 @@
 }
 
 .cta-button {
-  width: 500px;
+  width: 450px;
   background-color: rgb(202, 0, 0);
   padding: 10px;
   text-decoration: none;
@@ -71,8 +73,9 @@
 
 .personal-section {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  max-width: 58%;
+  max-width: 1100px;
   padding-top: 50px;
   padding-bottom: 40px;
   justify-content: space-between;
@@ -84,7 +87,7 @@
 
 .benefits-image {
   width: 400px;
-  border-radius: 2%;
+  border-radius: 5px;
 }
 
 .personal-list {
@@ -115,7 +118,7 @@
   flex-wrap: wrap;
   justify-content: space-between;
   margin: auto;
-  max-width: 60%;
+  max-width: 1100px;
   display: flex;
   align-items: center;
   margin-bottom: 50px;
@@ -129,6 +132,7 @@
   text-align: center;
   background: #0B0C1A;
   border-radius: 10px;
+  margin: 10px;
 }
 
 .card p {
@@ -171,8 +175,9 @@
 
 .footer-section {
   display: flex;
+  flex-wrap: wrap;
   margin: auto;
-  max-width: 60%;
+  max-width: 1100px;
   margin-bottom: 30px;
   margin-top: 50px;
   justify-content: space-between;
@@ -181,6 +186,18 @@
 .footer-section img {
   width: 250px;
   border-radius: 10px;
+}
+
+.profile-description {
+  line-height: 30px;
+  font-size: 16px;
+  margin-left: 50px;
+  width:800px;
+}
+
+.profile-description h1 {
+  color: rgb(82, 142, 255);
+  margin-top:2px;
 }
 
 .bottom-footer {
@@ -192,20 +209,6 @@
   justify-content: center;
   color:white;
 }
-
-.profile-description {
-  line-height: 30px;
-  font-size: 16px;
-  margin-left: 50px;
-
-}
-
-.profile-description h1 {
-  color: rgb(82, 142, 255);
-  margin-top:2px;
-}
-
-
 
 
 /* Footer END =================== */
@@ -220,14 +223,10 @@
 }
 
 
-
-/*
-
-#0B0C1A
-
-#0F1021 
-
-#122751
+/* If the screen size is 600px wide or less, hide the element */
+@media only screen and (max-width: 600px) {
 
 
-*/
+
+
+}
