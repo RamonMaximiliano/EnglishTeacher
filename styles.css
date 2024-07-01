@@ -1,5 +1,5 @@
 * body {
-  background-color: #0B0C1A;
+  background-color: #0b0c1a;
   color: white;
   margin: 0;
   padding: 0;
@@ -21,7 +21,7 @@
 .introduction-section-back {
   padding-top: 50px;
   padding-bottom: 40px;
-  background: linear-gradient(135deg, #10122e, #191a41, #0e2c68); 
+  background: linear-gradient(135deg, #10122e, #191a41, #0e2c68);
 }
 
 .inglês-text {
@@ -33,10 +33,9 @@
   border-radius: 2%;
 }
 
-
 .parag-description {
   width: 500px;
-  padding:10px;
+  padding: 10px;
 }
 
 .parag-description h1 {
@@ -97,11 +96,11 @@
   text-align: left;
 }
 
-.personal-list li{
+.personal-list li {
   margin-left: -18px;
 }
 
-.personal-list span{
+.personal-list span {
   font-size: 15px;
   margin-right: 5px;
 }
@@ -130,7 +129,7 @@
   height: 550px;
   align-items: center;
   text-align: center;
-  background: #0B0C1A;
+  background: #0b0c1a;
   border-radius: 10px;
   margin: 10px;
 }
@@ -169,7 +168,7 @@
   padding-top: 5px;
 }
 
-/* Intro END =================== */
+/* Cards END =================== */
 
 /* Footer START =================== */
 
@@ -192,12 +191,12 @@
   line-height: 30px;
   font-size: 16px;
   margin-left: 50px;
-  width:800px;
+  width: 800px;
 }
 
 .profile-description h1 {
   color: rgb(82, 142, 255);
-  margin-top:2px;
+  margin-top: 2px;
 }
 
 .bottom-footer {
@@ -207,26 +206,79 @@
   display: flex;
   height: 80px;
   justify-content: center;
-  color:white;
+  color: white;
 }
-
 
 /* Footer END =================== */
 
-
 .material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
 }
 
+@media only screen and (max-width: 1000px) {
+  /* Intro START =================== */
+  .introduction-section {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 
-/* If the screen size is 600px wide or less, hide the element */
-@media only screen and (max-width: 600px) {
+  .image1 {
+    max-width: 90%;
+    margin: auto;
+  }
 
+  .parag-description {
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+  }
 
+  .cta-button {
+    max-width: 90%;
+    margin: auto;
+  }
+  /* Intro END =================== */
 
+  /* Personal START =================== */
+  .personal-section {
+    flex-direction: column;
+    text-align: center;
+  }
 
+  .benefits-image {
+    width: 90%;
+    border-radius: 5px;
+    margin: auto;
+  }
+
+  .benefits-list {
+    margin: 5px;
+    padding: 10px;
+    margin: auto;
+  }
+  /* Personal END =================== */
+
+  /* Cards START =================== */
+  .main-cards {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* Cards END =================== */
+
+  /* Footer START =================== */
+  .footer-section {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile-description {
+    max-width: 80%;
+    margin: auto;
+  }
+
+  .profile-description h1 {
+    margin-top: 20px;
+  }
+  /* Footer END =================== */
 }
