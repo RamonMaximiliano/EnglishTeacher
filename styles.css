@@ -192,6 +192,9 @@
   font-size: 16px;
   margin-left: 50px;
   width: 800px;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .profile-description h1 {
